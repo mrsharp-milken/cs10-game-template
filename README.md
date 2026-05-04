@@ -31,10 +31,29 @@ gh repo collaborator add <github-username> --permission push
 
 Each team member should:
 
+1. Open a new Terminal
+
+2. Clone the team's project repo (aka download a copy of the project's files to your computer)
+
 ```bash
 gh repo clone your-team/cs10-game-projectname
-cd cs10-game-projectname
 ```
+
+3. Open that project folder in VS Code
+
+```bash
+code cs10-game-projectname
+```
+
+If that doesn't work, do this:
+
+```bash
+open cs10-game-projectname
+```
+
+That will show you where the project folder is. 
+
+Go back to VSCode, do **File** >> **Open Folder** >> choose that project folder
 
 ### Step 4: Install dependencies
 
